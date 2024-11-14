@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <target><x id="INTERPOLATION" equiv-text="{{title}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3022994926184248873" datatype="html">
+        <source>Hello world!</source>
+        <target>Bonjour le monde!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="message.number-format" datatype="html">
+        <source>Formatted number: <x id="INTERPOLATION" equiv-text="{{ 14000 | number : &quot;.2&quot; }}"/></source>
+        <target>Nombre formaté : <x id="INTERPOLATION" equiv-text="{{ 14000 | number : &quot;.2&quot; }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <note priority="1" from="description">Formatted number message example</note>
+      </trans-unit>
+      <trans-unit id="message.date-format" datatype="html">
+        <source>Formatted date: <x id="INTERPOLATION" equiv-text="{{ 12/12/2024 | date : &quot;fullDate&quot; }}"/></source>
+        <target>Date format : <x id="INTERPOLATION" equiv-text="{{ 12/12/2024 | date : &quot;fullDate&quot; }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+        <note priority="1" from="description">Formatted date message example</note>
+      </trans-unit>
+      <trans-unit id="3902961887793684628" datatype="html">
+        <source>Hello</source>
+        <target>Bonjour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
